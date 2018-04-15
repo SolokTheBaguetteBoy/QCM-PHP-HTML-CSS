@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('caviardreams.woff2') format('woff2'),
+         url('caviardreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {	
+	margin:0;padding:0;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size : 12pt;
+	font-family: 'caviar_dreamsregular', Georgia, Serif;
+}
+form {
+	margin-left:5em;
+	display:block; 
+	font-family: 'caviar_dreamsregular', Georgia, Serif;
+	font-size : 14pt;
+}
+label {
+	float:left; 
+	height:1.5em;
+	width:5em;
+	font-family: 'caviar_dreamsregular', Georgia, Serif;
+}
+input {
+	display:block; 
+	height:1.5em;
+	font-family: 'caviar_dreamsregular', Georgia, Serif;
+}
+input.nom {width:125em;}
+input.num {width:8em;}
+div#m {color:red;}
+body{
+	font-family: 'caviar_dreamsregular', Serif;
+}
